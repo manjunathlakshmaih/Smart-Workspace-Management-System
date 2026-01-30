@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import TextField from '../../components/TextField';
+import Logo from '../../assets/logo.png'
 import './LoginPage.css';
 
 
@@ -18,7 +19,7 @@ const LoginPage = () => {
   return (
     <div className="login">
       <header className="login-header">
-        <div className="logo-box">SW</div>
+        <img className = "logo" src={Logo} alt="Smart Workspace Logo" />
         <div className="app-name">Smart Workspace App</div>
       </header>
 
