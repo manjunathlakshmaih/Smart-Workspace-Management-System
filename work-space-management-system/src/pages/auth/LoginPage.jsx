@@ -26,8 +26,8 @@ const LoginPage = () => {
       <h1 className="login-title">Login</h1>
 
       <form onSubmit={handleSubmit} className="login-form">
-        <TextField label="Email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="you@example.com" />
-        <TextField label="Password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="••••••••" />
+        <TextField className="login-field" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Email" />
+        <TextField className="login-field" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Password" />
         <Button type="submit">Login</Button>
       </form>
 

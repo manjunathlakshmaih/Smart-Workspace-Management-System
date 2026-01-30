@@ -16,7 +16,7 @@
     .app-name {
         font-size: 26px;
         font-weight: 700;
-        color: #1C1F25;
+        color: var(--app-name-color);
         text-align: center;
     }
 
@@ -24,6 +24,27 @@
         font-size: 30px;
         text-align: center;
         padding: 25px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .login-field {
+            width: 280px;
+            height: 34px;
+            border: 1px solid var(--border-color);
+            background-color: var(--input-bg);
+            padding: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        ::placeholder {
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
     }
 
 }

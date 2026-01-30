@@ -5,23 +5,28 @@
 }
 
 :root[data-theme="light"] {
-  --bg-primary: #F5F7FA;
-  --bg-secondary: #ffffff;
+  --bg-secondary: #F5F7FA;
+  --bg-primary: #ffffff;
   --text-primary: #333333;
   --text-secondary: #666666;
   --border-color:#444444;
   --logo-bg: #004b57;
+  --input-bg: #F5F7FA;
+  --app-name-color: #011e23;
   --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 :root[data-theme="dark"] {
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2d2d2d;
+  --bg-secondary: #1a1a1a;
+  --bg-primary: #2d2d2d;
   --text-primary: #e0e0e0;
   --text-secondary: #b0b0b0;
   --border-color:  #e0e0e0;
-  --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  --input-bg: #1a1a1a;
   --logo-bg: #004b57;
+  --app-name-color: #ffffff;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  
 }
 
 html {
