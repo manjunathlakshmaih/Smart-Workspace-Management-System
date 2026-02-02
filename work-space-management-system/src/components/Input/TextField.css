@@ -1,0 +1,7 @@
+.text-field {
+    .text-field-icon-spacer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
